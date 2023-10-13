@@ -54,11 +54,11 @@ const getProducts = function () {
 };
 getProducts();
 
-const searchForm = document.getElementById("custom-search");
-searchForm.addEventListener("submit", function (e) {
-  e.preventDefault();
+// const searchForm = document.getElementById("custom-search");
+// searchForm.addEventListener("submit", function (e) {
+//   e.preventDefault();
 
-  const searchBar = document.getElementById("search-field");
-  const searchValue = searchBar.value;
-  getProducts(searchValue);
-});
+//   const searchBar = document.getElementById("search-field");
+//   const searchValue = searchBar.value;
+//   getProducts(searchValue);
+// });
