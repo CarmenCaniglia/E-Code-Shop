@@ -34,7 +34,7 @@ const generateProductDetails = function (details) {
     <h2 class="text-center">DETTAGLI PRODOTTO</h2>
     <img
       src=" ${details.imageUrl}"
-      class="w-100"
+      class="w-100 my-2"
     />
     <h3 class="text-center mt-4">${details.name}</h3>
     <p>
