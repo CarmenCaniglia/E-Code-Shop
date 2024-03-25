@@ -29,7 +29,7 @@ const getProducts = function () {
   fetch("https://striveschool-api.herokuapp.com/api/product/", {
     headers: {
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI4ZWZjYzEzOWM0MzAwMTg4MTQ1NjUiLCJpYXQiOjE2OTcxODE2NDUsImV4cCI6MTY5ODM5MTI0NX0.RfB0VDiFd1RQa7EvGIN9EcNBq5lzXGtOecHMh6dq2Bs",
+        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTNhNGE0ZmY2ZTNkZDAwMTQ5NWU0MzEiLCJpYXQiOjE3MTEzODA5NjQsImV4cCI6MTcxMjU5MDU2NH0.Sir8TZ9vzkHk34iB0vW7pg1GPM8yJQx5dSoWLOELd3Y",
     },
   })
     .then((res) => {
